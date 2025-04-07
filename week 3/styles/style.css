@@ -1,0 +1,17 @@
+#google {
+    color: greenyellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home-footer{
+    color: chartreuse;
+    font-weight: bold;
+}
+
+body{
+    background-image: url('red ferrari.jpg'); /*location of image*/
+    background-size: cover; /*cover the whole page*/
+    background-repeat: no-repeat; /* prevents the image from repeating*/
+    background-position: center; /*center the image*/
+}
