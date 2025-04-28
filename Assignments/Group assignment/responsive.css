@@ -1,0 +1,262 @@
+/* Media Queries for Responsive Design */
+
+/* Large Screens */
+@media screen and (max-width: 1200px) {
+    .hero-content h2 {
+        font-size: 60px;
+    }
+    
+    .skills, .about, .expertise {
+        gap: 30px;
+    }
+}
+
+/* Medium Screens (Tablets) */
+@media screen and (max-width: 992px) {
+    header {
+        padding: 15px 5%;
+    }
+    
+    nav ul li {
+        margin-left: 15px;
+    }
+    
+    .hero {
+        padding: 40px 5%;
+    }
+    
+    .hero-content {
+        width: 60%;
+    }
+    
+    .hero-content h1 {
+        font-size: 30px;
+    }
+    
+    .hero-content h2 {
+        font-size: 50px;
+    }
+    
+    .hero-image {
+        width: 30%;
+    }
+    
+    .about, .services, .skills, .expertise, .portfolio, .stats {
+        padding: 40px 5%;
+    }
+    
+    .partners {
+        padding: 25px 5%;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .partners img {
+        max-width: 120px;
+    }
+    
+    .services-grid {
+        gap: 20px;
+    }
+    
+    .service-card {
+        width: 32%;
+        padding: 20px;
+    }
+    
+    .expertise-grid {
+        gap: 20px;
+    }
+    
+    .stat-number {
+        font-size: 36px;
+    }
+}
+
+/* Small Screens (Small Tablets) */
+@media screen and (max-width: 768px) {
+    .logo {
+        font-size: 20px;
+    }
+    
+    nav ul li {
+        margin-left: 10px;
+    }
+    
+    .hire-btn {
+        padding: 8px 15px;
+    }
+    
+    .hero {
+        flex-direction: column;
+        padding: 30px 5% 50px;
+        text-align: center;
+    }
+    
+    .hero-content {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .hero h2 {
+        font-size: 40px;
+    }
+    
+    .hero-image {
+        position: relative;
+        width: 60%;
+        right: auto;
+        bottom: auto;
+    }
+    
+    .about, .skills, .expertise {
+        flex-direction: column;
+    }
+    
+    .about-image, .about-content, .skills-image, .skills-content, .expertise-content, .expertise-image {
+        width: 100%;
+    }
+    
+    .about-image, .skills-image {
+        margin-bottom: 30px;
+    }
+    
+    .services-grid {
+        flex-direction: column;
+    }
+    
+    .service-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .expertise {
+        flex-direction: column-reverse;
+    }
+    
+    .expertise-image {
+        margin-bottom: 30px;
+    }
+    
+    .stats {
+        flex-wrap: wrap;
+    }
+    
+    .stat-item {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+    
+    .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .footer-contact {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* Mobile Screens */
+@media screen and (max-width: 576px) {
+    header {
+        flex-direction: column;
+        padding: 15px 5%;
+    }
+    
+    .logo {
+        margin-bottom: 15px;
+    }
+    
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        margin: 5px 10px;
+    }
+    
+    .hire-btn {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    
+    .hero h1 {
+        font-size: 26px;
+    }
+    
+    .hero h2 {
+        font-size: 34px;
+    }
+    
+    .hero p {
+        font-size: 14px;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    
+    .hero-image {
+        width: 80%;
+    }
+    
+    .section-header h2 {
+        font-size: 26px;
+    }
+    
+    .about-content h2 {
+        font-size: 26px;
+    }
+    
+    .profile-item {
+        width: 100%;
+    }
+    
+    .expertise-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .stat-item {
+        width: 100%;
+    }
+    
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .sidebar {
+        display: none;
+    }
+}
+
+/* Very Small Mobile Screens */
+@media screen and (max-width: 375px) {
+    .hero h2 {
+        font-size: 28px;
+    }
+    
+    .partners img {
+        max-width: 100px;
+    }
+    
+    .social-links a {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
+    
+    .footer-social a {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
+}

@@ -1,0 +1,517 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+header {
+    background-color: #0a3139;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo svg {
+    margin-right: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+.hire-btn {
+    background-color: #009688;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-left: 15px;
+    transition: background-color 0.3s;
+}
+
+.hire-btn:hover {
+    background-color: #00796b;
+}
+
+.sidebar {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #151d2a;
+    color: white;
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+}
+
+.sidebar a {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #212c3d;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #0a3139;
+    color: white;
+    padding: 50px 10%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 72px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.2);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hero p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.hero-image {
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    width: 35%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 30px;
+    margin-right: 15px;
+    transition: all 0.3s;
+}
+
+.btn-primary {
+    background-color: #009688;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #00796b;
+}
+
+.btn-outline {
+    border: 1px solid #fff;
+    color: white;
+}
+
+.btn-outline:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Partners Section */
+.partners {
+    background-color: #237a6a;
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partners img {
+    max-width: 150px;
+    
+}
+
+/* About Section */
+.about {
+    padding: 50px 10%;
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.about-image {
+    width: 40%;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.about-content {
+    width: 55%;
+}
+
+.section-title {
+    color: #666;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.about-content p {
+    margin-bottom: 25px;
+    color: #666;
+}
+
+.profile-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.profile-item {
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.profile-item span {
+    font-weight: bold;
+    color: #333;
+}
+
+.social-links {
+    margin-top: 30px;
+}
+
+.social-links a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.social-links a:hover {
+    background-color: #00796b;
+}
+
+/* Services Section */
+.services {
+    padding: 50px 10%;
+    background-color: #f8f8f8;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-header h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+.services-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.service-card {
+    width: 31%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.service-icon {
+    color: #009688;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.service-card p {
+    color: #666;
+}
+
+.more-link {
+    display: block;
+    text-align: right;
+    color: #009688;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.more-link:hover {
+    text-decoration: underline;
+}
+
+/* Skills Section */
+.skills {
+    padding: 50px 10%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.skills-image {
+    width: 40%;
+}
+
+.skills-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.skills-content {
+    width: 55%;
+}
+
+.skills-content p {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.skill-bar {
+    margin-bottom: 25px;
+}
+
+.skill-name {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.skill-progress {
+    height: 8px;
+    background-color: #e1e1e1;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.skill-progress-bar {
+    height: 100%;
+    background-color: #009688;
+}
+
+/* Expertise Section */
+.expertise {
+    padding: 50px 10%;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+}
+
+.expertise-content {
+    width: 55%;
+    padding-right: 50px;
+}
+
+.expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.expertise-item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.expertise-icon {
+    color: #009688;
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.expertise-info h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.expertise-info p {
+    color: #666;
+}
+
+.expertise-image {
+    width: 40%;
+}
+
+.expertise-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Stats Section */
+.stats {
+    padding: 50px 10%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    text-align: center;
+}
+
+.stat-item {
+    width: 20%;
+}
+
+.stat-number {
+    font-size: 42px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.stat-text {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 50px 10%;
+    background-color: #f8f8f8;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.portfolio-item {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #0a3139;
+    color: white;
+    padding: 50px 10% 30px;
+    text-align: center;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo svg {
+    margin-right: 10px;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.footer-contact-item {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.footer-contact-item i {
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-social a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+.footer-social a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
